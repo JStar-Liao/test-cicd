@@ -8,8 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    matrix:
-      strategy:
+    strategy:
+      matrix:
         node-version: [20.x]
     steps:
       - name: Checkout
