@@ -47,8 +47,8 @@ export const config: UserConfig = {
   description: 'jstar对各类前端知识点碎片学习后的记录',
   head: [['link', { rel: 'icon', href: '/star.ico' }]],
   lang: 'zh',
-  // base: '/',
-  // srcDir: './src',
+  base: '/test-cicd/',
+  // srcDir: '/',
   /* 去除.html后缀 */
   cleanUrls: true,
   /* 需要去除的.md */
