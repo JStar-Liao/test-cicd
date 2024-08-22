@@ -39,6 +39,3 @@ jobs:
           github_token: ${{ secrets.DEPLOY_SECRET }}
           BRANCH: master
           publish_dir: ./dist
-
-
-DEPLOY_SECRET
