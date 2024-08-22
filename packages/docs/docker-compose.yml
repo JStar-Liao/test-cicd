@@ -1,0 +1,10 @@
+version: "1.0" 
+
+services:
+  web:
+    # image: webchart:v1
+    build: ./
+    ports:
+      - 3000:80
+    environment:
+      - TZ=Asia/Shanghai
