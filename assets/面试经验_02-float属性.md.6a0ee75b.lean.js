@@ -1,1 +1,0 @@
-import{_ as a,o as l,c as t,U as o}from"./chunks/framework.1bc6aac7.js";const b=JSON.parse('{"title":"float属性","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/02-float属性.md"}'),e={name:"面试经验/02-float属性.md"},i=o("",7),r=[i];function c(n,_,s,h,d,f){return l(),t("div",null,r)}const p=a(e,[["render",c]]);export{b as __pageData,p as default};

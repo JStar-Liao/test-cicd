@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const F=JSON.parse('{"title":"乾坤微服务","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/53-乾坤微服务基本.md"}'),p={name:"面试经验/53-乾坤微服务基本.md"},e=l("",28),o=[e];function r(c,E,t,i,y,b){return n(),a("div",null,o)}const m=s(p,[["render",r]]);export{F as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as r,U as o}from"./chunks/framework.1d5623bb.js";const y=JSON.parse('{"title":"判断是否为数组","description":"","frontmatter":{},"headers":[],"relativePath":"js/array/judgeIsArray.md"}'),t={name:"js/array/judgeIsArray.md"},c=o("",11),d=[c];function i(l,s,n,h,_,p){return e(),r("div",null,d)}const b=a(t,[["render",i]]);export{y as __pageData,b as default};

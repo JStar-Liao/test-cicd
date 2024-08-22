@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const F=JSON.parse('{"title":"async await","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/11-async和await.md"}'),p={name:"面试经验/11-async和await.md"},e=l("",6),o=[e];function r(c,E,t,y,i,b){return n(),a("div",null,o)}const u=s(p,[["render",r]]);export{F as __pageData,u as default};

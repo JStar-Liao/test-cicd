@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"js监听复制和粘贴","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/07-js监听复制和粘贴.md"}'),p={name:"面试经验/07-js监听复制和粘贴.md"},o=l("",2),e=[o];function E(t,c,r,y,i,b){return n(),a("div",null,e)}const m=s(p,[["render",E]]);export{u as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,U as i}from"./chunks/framework.1bc6aac7.js";const p=JSON.parse('{"title":"普通函数和箭头函数","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/33-普通函数和箭头函数.md"}'),l={name:"面试经验/33-普通函数和箭头函数.md"},_=i("",3),o=[_];function r(n,s,c,d,h,u){return t(),a("div",null,o)}const f=e(l,[["render",r]]);export{p as __pageData,f as default};

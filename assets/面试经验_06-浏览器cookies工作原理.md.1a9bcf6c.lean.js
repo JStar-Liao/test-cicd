@@ -1,1 +1,0 @@
-import{_ as s,o,c as e,U as a}from"./chunks/framework.1bc6aac7.js";const y=JSON.parse('{"title":"cookies","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/06-浏览器cookies工作原理.md"}'),t={name:"面试经验/06-浏览器cookies工作原理.md"},n=a("",4),l=[n];function p(c,r,i,d,_,E){return o(),e("div",null,l)}const h=s(t,[["render",p]]);export{y as __pageData,h as default};

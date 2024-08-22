@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"跨域请求","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/32-跨域请求.md"}'),p={name:"面试经验/32-跨域请求.md"},o=l("",40),e=[o];function r(c,t,E,i,y,m){return n(),a("div",null,e)}const d=s(p,[["render",r]]);export{u as __pageData,d as default};

@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as r,U as i}from"./chunks/framework.1bc6aac7.js";const u=JSON.parse('{"title":"margin","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/01-margin和padding.md"}'),t={name:"面试经验/01-margin和padding.md"},n=i("",10),o=[n];function d(l,h,s,c,_,p){return e(),r("div",null,o)}const g=a(t,[["render",d]]);export{u as __pageData,g as default};

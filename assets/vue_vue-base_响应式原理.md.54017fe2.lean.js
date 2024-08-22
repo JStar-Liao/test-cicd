@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,U as i}from"./chunks/framework.1bc6aac7.js";const _=JSON.parse('{"title":"响应式原理","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue-base/响应式原理.md"}'),r={name:"vue/vue-base/响应式原理.md"},l=i("",11),o=[l];function s(c,d,n,f,h,u){return t(),a("div",null,o)}const v=e(r,[["render",s]]);export{_ as __pageData,v as default};

@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,U as o}from"./chunks/framework.1bc6aac7.js";const p=JSON.parse('{"title":"乾坤原理","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/54-乾坤原理.md"}'),r={name:"面试经验/54-乾坤原理.md"},i=o("",4),s=[i];function _(l,n,c,d,h,u){return e(),t("div",null,s)}const f=a(r,[["render",_]]);export{p as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"柯里化","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/柯里化.md"}'),p={name:"js/base/柯里化.md"},o=l("",6),e=[o];function r(c,t,E,y,i,F){return n(),a("div",null,e)}const d=s(p,[["render",r]]);export{u as __pageData,d as default};

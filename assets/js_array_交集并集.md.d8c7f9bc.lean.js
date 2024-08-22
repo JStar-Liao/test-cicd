@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"交集并集","description":"","frontmatter":{},"headers":[],"relativePath":"js/array/交集并集.md"}'),p={name:"js/array/交集并集.md"},o=l("",2),e=[o];function r(c,E,t,y,F,i){return n(),a("div",null,e)}const B=s(p,[["render",r]]);export{u as __pageData,B as default};

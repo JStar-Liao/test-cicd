@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,U as r}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"响应式 API 区别","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue3/响应式 API.md"}'),o={name:"vue/vue3/响应式 API.md"},h=r("",12),l=[h];function i(c,s,n,d,u,f){return e(),t("div",null,l)}const b=a(o,[["render",i]]);export{m as __pageData,b as default};

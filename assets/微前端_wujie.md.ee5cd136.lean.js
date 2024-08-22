@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,U as t}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"无界微前端方案","description":"","frontmatter":{},"headers":[],"relativePath":"微前端/wujie.md"}'),i={name:"微前端/wujie.md"},s=t("",5),l=[s];function r(c,n,_,d,h,p){return a(),o("div",null,l)}const f=e(i,[["render",r]]);export{u as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"js类型判断","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/21-类型判断.md"}'),p={name:"面试经验/21-类型判断.md"},e=l("",13),o=[e];function r(t,c,i,E,y,b){return a(),n("div",null,o)}const m=s(p,[["render",r]]);export{u as __pageData,m as default};

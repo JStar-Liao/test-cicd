@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.1d5623bb.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue-base/z_vue性能优化.md"}'),r={name:"vue/vue-base/z_vue性能优化.md"};function s(_,o,c,n,p,u){return t(),a("div")}const v=e(r,[["render",s]]);export{i as __pageData,v as default};

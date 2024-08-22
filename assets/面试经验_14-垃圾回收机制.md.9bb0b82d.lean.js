@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,U as r}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"js垃圾回收机制","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/14-垃圾回收机制.md"}'),o={name:"面试经验/14-垃圾回收机制.md"},i=r("",10),s=[i];function l(n,_,c,d,h,p){return e(),t("div",null,s)}const f=a(o,[["render",l]]);export{m as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const y=JSON.parse('{"title":"vue23区别","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/48-vue2,3区别.md"}'),n={name:"面试经验/48-vue2,3区别.md"},o=l("",5),t=[o];function p(i,r,c,d,_,u){return e(),a("div",null,t)}const h=s(n,[["render",p]]);export{y as __pageData,h as default};

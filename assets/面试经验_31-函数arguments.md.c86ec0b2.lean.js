@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,U as r}from"./chunks/framework.1d5623bb.js";const h=JSON.parse('{"title":"函数的argumnets","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/31-函数arguments.md"}'),o={name:"面试经验/31-函数arguments.md"},n=r("",6),s=[n];function l(c,i,_,m,u,d){return e(),t("div",null,s)}const g=a(o,[["render",l]]);export{h as __pageData,g as default};

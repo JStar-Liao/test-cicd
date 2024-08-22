@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,U as l}from"./chunks/framework.1bc6aac7.js";const F=JSON.parse('{"title":"asyncawait","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/asyncawait.md"}'),p={name:"js/base/asyncawait.md"},e=l("",11),o=[e];function r(c,E,t,i,y,b){return a(),n("div",null,o)}const u=s(p,[["render",r]]);export{F as __pageData,u as default};
