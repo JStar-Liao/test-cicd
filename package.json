@@ -21,10 +21,7 @@
     "cover": "vitest run --coverage",
     "docs:dev": "npm -C packages/docs run docs:dev",
     "docs:build": "npm -C packages/docs run docs:build",
-    "docs:dir": "node ./scripts/fileToDir.js",
-    "wrangler": "wrangler pages deploy",
-    "wrangler:logout": "wrangler logout",
-    "wrangler:login": "wrangler login"
+    "docs:dir": "node ./scripts/fileToDir.js"
   },
   "lint-staged": {
     "packages/components/**/*.{js,ts,tsx,jsx,vue}": [
@@ -73,9 +70,7 @@
     "vite": "^4.2.0",
     "vite-plugin-dts": "^2.2.0",
     "vitepress": "1.0.0-alpha.65",
-    "vitest": "^0.30.1",
-    "@cloudflare/workers-types": "^4.20240722.0",
-    "wrangler": "^3.67.1"
+    "vitest": "^0.30.1"
   },
   "dependencies": {
     "element-plus": "^2.3.2",
