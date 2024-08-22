@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const d=JSON.parse('{"title":"对象的拷贝","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/24-深拷贝和浅拷贝.md"}'),p={name:"面试经验/24-深拷贝和浅拷贝.md"},e=l("",20),o=[e];function r(c,t,E,i,y,b){return n(),a("div",null,o)}const F=s(p,[["render",r]]);export{d as __pageData,F as default};

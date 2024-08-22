@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,U as l}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"webpack","description":"","frontmatter":{},"headers":[],"relativePath":"webpack/webpack实现原理.md"}'),p={name:"webpack/webpack实现原理.md"},e=l("",78),o=[e];function r(c,t,i,E,y,b){return a(),n("div",null,o)}const d=s(p,[["render",r]]);export{m as __pageData,d as default};

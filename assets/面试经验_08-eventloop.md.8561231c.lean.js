@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"eventloop","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/08-eventloop.md"}'),p={name:"面试经验/08-eventloop.md"},e=l("",30),o=[e];function c(r,t,E,i,y,b){return n(),a("div",null,o)}const F=s(p,[["render",c]]);export{m as __pageData,F as default};

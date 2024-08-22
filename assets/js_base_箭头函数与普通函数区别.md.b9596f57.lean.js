@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,U as i}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"箭头函数与普通函数区别","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/箭头函数与普通函数区别.md"}'),o={name:"js/base/箭头函数与普通函数区别.md"},l=i("",12),r=[l];function s(d,h,c,n,_,p){return e(),t("div",null,r)}const b=a(o,[["render",s]]);export{m as __pageData,b as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,U as l}from"./chunks/framework.1bc6aac7.js";const d=JSON.parse('{"title":"变量提升（Hoisting）","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/变量提升.md"}'),p={name:"js/base/变量提升.md"},e=l("",28),o=[e];function r(c,t,i,E,y,b){return a(),n("div",null,o)}const m=s(p,[["render",r]]);export{d as __pageData,m as default};
