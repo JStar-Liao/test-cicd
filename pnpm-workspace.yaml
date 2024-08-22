@@ -1,0 +1,7 @@
+packages:
+    - 'packages/components/**'
+    - 'debugger/**'
+    - 'packages/utils/**'
+    - 'packages/ComponentsLib/**'
+    - 'packages/MethodsLib/**'
+    - 'packages/docs/**'

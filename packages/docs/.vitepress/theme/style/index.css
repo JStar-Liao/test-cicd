@@ -1,0 +1,103 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-white: #ffffff;
+  --vp-c-black: #000000;
+  --vp-c-gray: #8e8e93;
+  --vp-c-text-light-1: rgba(60, 60, 67);
+  --vp-c-text-light-2: rgba(60, 60, 67, 0.75);
+  --vp-c-text-light-3: rgba(60, 60, 67, 0.33);
+  --vp-c-text-dark-1: rgba(255, 255, 245, 0.86);
+  --vp-c-text-dark-2: rgba(235, 235, 245, 0.6);
+  --vp-c-text-dark-3: rgba(235, 235, 245, 0.38);
+  --vp-c-green: rgb(100, 108, 255);
+  --vp-c-green-light: #747bfe;
+  --vp-c-green-lighter: #969bff;
+  --vp-c-green-dark: #555dff;
+  --vp-c-green-darker: #4952ff;
+  --vp-c-green-dimm-1: rgba(100, 108, 255, 0.05);
+  --vp-c-green-dimm-2: rgba(100, 108, 255, 0.2);
+  --vp-c-green-dimm-3: rgba(100, 108, 255, 0.5);
+  --vp-c-yellow: #d97706;
+  --vp-c-yellow-light: #f59e0b;
+  --vp-c-yellow-lighter: #fbbf24;
+  --vp-c-yellow-dark: #b45309;
+  --vp-c-yellow-darker: #92400e;
+  --vp-c-yellow-dimm-1: rgba(234, 179, 8, 0.05);
+  --vp-c-yellow-dimm-2: rgba(234, 179, 8, 0.2);
+  --vp-c-yellow-dimm-3: rgba(234, 179, 8, 0.5);
+  --vp-c-red: #f43f5e;
+  --vp-c-red-light: #fb7185;
+  --vp-c-red-lighter: #fda4af;
+  --vp-c-red-dark: #e11d48;
+  --vp-c-red-darker: #be123c;
+  --vp-c-red-dimm-1: rgba(244, 63, 94, 0.05);
+  --vp-c-red-dimm-2: rgba(244, 63, 94, 0.2);
+  --vp-c-red-dimm-3: rgba(244, 63, 94, 0.5);
+  --vp-c-sponsor: #db2777;
+}
+
+.DocSearch-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: transparent;
+  transition: border-color 0.25s;
+}
+@media (min-width: 768px) {
+  .DocSearch-Button {
+    justify-content: flex-start;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0 10px 0 12px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--vp-c-bg-alt);
+  }
+}
+@media (max-width: 768px) {
+  .DocSearch-Button-Keys {
+    display: none;
+  }
+  .VPNavBarHamburger {
+    height: 32px !important;
+    width: 32px !important;
+    border-radius: 4px;
+  }
+}
+.DocSearch-Button:hover {
+  background-color: var(--vp-c-bg-alt);
+}
+
+.VPPluginSearch-flex-logo{
+  display: none !important;
+}
+
+/* 浏览器滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  /* border-radius: 4px; */
+  box-shadow: inset 0 0 6px rgba(207, 207, 207, 0);
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  background: var(--vp-c-brand);
+  border-radius: 4px;
+  box-shadow: inset 0 0 4px rgb(0 0 0 / 40%);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: var(--vp-c-brand)
+}

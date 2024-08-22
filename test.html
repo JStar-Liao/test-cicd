@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Scroll-driven animation</title>
+  <style>
+    @supports (animation-range: 0vh 90vh) {
+      body {
+        padding-top: 100vh;
+      }
+
+      @keyframes sticky-header-move-and-size {
+        from {
+          background-position: 50% 0;
+          height: 100vh;
+          font-size: calc(4vw + 1em);
+        }
+
+        to {
+          background-position: 50% 100%;
+          background-color: #0b1584;
+          height: 10vh;
+          font-size: 2em;
+        }
+      }
+
+      #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        color: #fff;
+        height: 100vh;
+        width: 100%;
+        background-image: url(//qhstaticssl.kujiale.com/image/jpeg/1688004184473/D736F8E71BAB09B9E364BB177D19B8C9.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-blend-mode: soft-light;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        font-size: calc(4vw + 1em);
+
+        animation: sticky-header-move-and-size linear forwards;
+        animation-timeline: scroll();
+        animation-range: 0vh 90vh;
+      }
+    }
+
+    #content {
+      padding-top: 1em;
+      margin: 0 auto 0;
+      width: 80vw;
+      max-width: 60em;
+    }
+
+    .warning {
+      box-sizing: border-box;
+      padding: 1em;
+      margin: 1em 0;
+      border: 1px solid #ccc;
+      background: rgba(255 255 205 / 0.8);
+    }
+
+    @supports (animation-timeline: scroll()) {
+      .warning {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    Page Header
+  </div>
+  <div id="content">
+    <div class="warning">
+      <p>
+        ⚠️ Your browser does not support Scroll-driven Animations. Please use
+        Chrome 115 or newer.
+      </p>
+    </div>
+    <p>Content Starts Here.</p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+    <p>
+      Page Content.Page Content.Page Content.Page Content.Page Content.Page
+      Content.Page Content.Page Content.Page Content.Page Content.
+    </p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "@jstar-public-lib/components",
+  "version": "1.0.0",
+  "description": "jstar组件库开发目录",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "jstar",
+  "license": "ISC"
+}

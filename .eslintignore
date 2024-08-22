@@ -1,0 +1,5 @@
+/.eslintrc.cjs
+/dist
+/node_modules
+package.json
+temp.js

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "Vue.vscode-typescript-vue-plugin",
+    "Vue.volar",
+    "stylelint.vscode-stylelint"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "jstar-comp-lib",
+  "version": "1.1.2",
+  "description": "jstar组件库",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": "./*"
+  },
+  "style": "./dist/style.css",
+  "keywords": [
+    "rs",
+    "components",
+    "lib"
+  ],
+  "author": "jstar",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "element-plus": "^2.3.2",
+    "vue": "^3.2.47"
+  },
+  "homepage": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib/",
+  "bugs": {
+    "url": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib/-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib.git"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
+}

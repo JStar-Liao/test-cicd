@@ -1,0 +1,9 @@
+{
+  "name": "@jstar-public-lib/utils",
+  "version": "1.0.0",
+  "description": "jstar组件库工具",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "jstar",
+  "license": "ISC"
+}

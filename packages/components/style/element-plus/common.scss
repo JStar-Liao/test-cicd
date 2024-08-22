@@ -1,0 +1,98 @@
+/* 主色 */
+$rs-primary: #32D99C;
+$rs-primary-l1: #059669;
+$rs-primary-l2: #10B981;
+$rs-primary-l3: #6EE7B7;
+$rs-primary-l4: #A7F3D0;
+$rs-primary-l5: #D1FAE5;
+$rs-primary-l6: #ECFDF5;
+
+/* danger */
+$rs-danger: #FF3A35;
+$rs-danger-l1: #EC2D30;
+$rs-danger-l2: #EB6F70;
+$rs-danger-l3: #F49898;
+$rs-danger-l4: #FFCCD2;
+$rs-danger-l5: #FFEBEE;
+$rs-danger-l6: #FEF2F2;
+
+/* warning */
+$rs-warning: #FF8B00;
+$rs-warning-l1: #B45309;
+$rs-warning-l2: #FFAD0D;
+$rs-warning-l3: #FFC62B;
+$rs-warning-l4: #FFDD82;
+$rs-warning-l5: #FFEAB3;
+$rs-warning-l6: #FFF7E1;
+
+/* success */
+$rs-success: #34C606;
+$rs-success-l1: #16A34A;
+$rs-success-l2: #4ADE80;
+$rs-success-l3: #86EFAC;
+$rs-success-l4: #BBF7D0;
+$rs-success-l5: #DCFCE7;
+$rs-success-l6: #F0FDF4;
+
+/* info */
+$rs-info: #449DFF;
+$rs-info-l1: #1D88FF;
+$rs-info-l2: #58A7FF;
+$rs-info-l3: #6BB2FF;
+$rs-info-l4: #7FBCFF;
+$rs-info-l5: #A6D0FF;
+$rs-info-l6: #BADBFF;
+
+@forward "../../../../node_modules/element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": $rs-primary,
+    ),
+    "success": (
+      "base": $rs-success,
+    ),
+    "warning": (
+      "base": $rs-warning,
+    ),
+    "danger": (
+      "base": $rs-danger,
+    ),
+    "error": (
+      "base": $rs-danger,
+    ),
+    "info": (
+      "base": $rs-info,
+    ),
+  ),
+  $text-color: (
+    'primary': #1B2124,
+    'regular': #485477,
+    'secondary': #86909C,
+    'placeholder': #AAADAF,
+    'disabled': #CCCCCC,
+  ),
+  $border-color: (
+    '': #F2F3F5,
+    'light': #e4e7ed,
+    'lighter': #ebeef5,
+    'extra-light': #f2f6fc,
+    'dark': #8D9092,
+    'darker': #F5F5F5,
+  ),
+  $fill-color: (
+    '': #f0f2f5,
+    'light': #f5f7fa,
+    'lighter': #fafafa,
+    'extra-light': #fafcff,
+    'dark': #ebedf0,
+    'darker': #e6e8eb,
+    'blank': #ffffff,
+  ),
+  $bg-color: (
+    '': #ffffff,
+    'page': #F9FAFB,
+    'overlay': #ffffff,
+  )
+);
+
+@use "../../../../node_modules/element-plus/theme-chalk/src/index.scss" as *;

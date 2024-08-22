@@ -1,0 +1,98 @@
+{
+  "name": "rs-components-lib",
+  "version": "1.0.0",
+  "description": "jstar组件库",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "debugger": "npm -C debugger run serve",
+    "build": "node ./scripts/build.js && node ./scripts/buildMethods.js",
+    "build:c": "node ./scripts/build.js",
+    "build:m": "node ./scripts/buildMethods.js",
+    "publish:c": "npm -C packages/ComponentsLib run release",
+    "publish:m": "npm -C packages/MethodsLib run release",
+    "lint": "eslint packages/components/**/*.{js,jsx,vue,ts,tsx} --fix",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "commitlint": "commitlint --config commitlint.config.cjs -e -V",
+    "cm": "git add . && git-cz",
+    "lint:stylelint": "stylelint packages/components/**/*.{vue,css,scss} --fix",
+    "test": "vitest",
+    "cover": "vitest run --coverage",
+    "docs:dev": "npm -C packages/docs run docs:dev",
+    "docs:build": "npm -C packages/docs run docs:build",
+    "docs:dir": "node ./scripts/fileToDir.js",
+    "wrangler": "wrangler pages deploy",
+    "wrangler:logout": "wrangler logout",
+    "wrangler:login": "wrangler login"
+  },
+  "lint-staged": {
+    "packages/components/**/*.{js,ts,tsx,jsx,vue}": [
+      "npm run lint",
+      "stylelint --fix --allow-empty-input"
+    ],
+    "packages/components/**/*.{css,less,scss,html}": [
+      "stylelint --fix --allow-empty-input"
+    ],
+    "packages/components/**/*.json": [
+      "npm run lint"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "@vue/test-utils": "^2.3.2",
+    "c8": "^7.13.0",
+    "chalk": "4.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog-zh": "^0.0.2",
+    "eslint-plugin-vue": "^9.3.0",
+    "fast-glob": "^3.2.12",
+    "happy-dom": "^9.8.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.6",
+    "release-it": "^15.10.1",
+    "sass": "^1.60.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^6.0.1",
+    "stylelint-scss": "^4.3.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.2.0",
+    "vitepress": "1.0.0-alpha.65",
+    "vitest": "^0.30.1",
+    "@cloudflare/workers-types": "^4.20240722.0",
+    "wrangler": "^3.67.1"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.2",
+    "eslint": "8.22.0",
+    "vitepress-plugin-search": "1.0.4-alpha.20",
+    "vue": "^3.2.47"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-zh"
+    }
+  },
+  "keywords": [
+    "rs",
+    "components",
+    "lib"
+  ],
+  "author": "jstar",
+  "license": "MIT"
+}

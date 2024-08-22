@@ -1,0 +1,14 @@
+{
+  "name": "debugger",
+  "private": true,
+  "version": "1.0.0",
+  "description": "jstar组件库调试目录",
+  "type": "module",
+  "scripts": {
+    "serve": "vite"
+  },
+  "dependencies": {
+    "@jstar-public-lib/components": "workspace:^",
+    "@jstar-public-lib/utils": "workspace:^"
+  }
+}

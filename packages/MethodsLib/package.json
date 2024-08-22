@@ -1,0 +1,37 @@
+{
+  "name": "jstar-methods-lib",
+  "version": "1.1.0",
+  "description": "jstar方法库",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "keywords": [
+    "rs",
+    "methods",
+    "lib"
+  ],
+  "author": "jstar",
+  "license": "ISC",
+  "private": false,
+  "homepage": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib/",
+  "bugs": {
+    "url": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib/-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.8.131/saas-basement/frontend/jstar-public-lib.git"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
+}
