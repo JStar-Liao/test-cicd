@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/string/打字效果.md"}'),p={name:"js/string/打字效果.md"},e=l("",1),o=[e];function r(t,E,c,y,i,u){return n(),a("div",null,o)}const d=s(p,[["render",r]]);export{b as __pageData,d as default};

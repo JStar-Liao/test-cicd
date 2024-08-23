@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"形成树结构","description":"","frontmatter":{},"headers":[],"relativePath":"js/array/形成树结构.md"}'),p={name:"js/array/形成树结构.md"},e=l("",6),o=[e];function r(c,E,t,i,y,b){return n(),a("div",null,o)}const F=s(p,[["render",r]]);export{m as __pageData,F as default};

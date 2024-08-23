@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"const","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/22-varletconst.md"}'),p={name:"面试经验/22-varletconst.md"},o=l("",8),e=[o];function r(c,t,E,i,y,b){return n(),a("div",null,e)}const F=s(p,[["render",r]]);export{u as __pageData,F as default};

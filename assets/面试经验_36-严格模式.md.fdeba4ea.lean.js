@@ -1,0 +1,1 @@
+import{_ as e,o as l,c as i,U as t}from"./chunks/framework.1bc6aac7.js";const u=JSON.parse('{"title":"严格模式","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/36-严格模式.md"}'),a={name:"面试经验/36-严格模式.md"},r=t("",3),_=[r];function o(s,n,c,d,p,m){return l(),i("div",null,_)}const f=e(a,[["render",o]]);export{u as __pageData,f as default};

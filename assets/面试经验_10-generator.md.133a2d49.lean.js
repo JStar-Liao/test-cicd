@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const u=JSON.parse('{"title":"generator","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/10-generator.md"}'),p={name:"面试经验/10-generator.md"},o=l("",6),e=[o];function r(E,c,t,y,i,b){return n(),a("div",null,e)}const m=s(p,[["render",r]]);export{u as __pageData,m as default};

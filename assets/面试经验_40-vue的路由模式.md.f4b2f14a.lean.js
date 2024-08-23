@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,U as h}from"./chunks/framework.1bc6aac7.js";const f=JSON.parse('{"title":"vue的路由模式","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/40-vue的路由模式.md"}'),i={name:"面试经验/40-vue的路由模式.md"},s=h("",9),l=[s];function o(r,n,c,_,p,d){return e(),t("div",null,l)}const m=a(i,[["render",o]]);export{f as __pageData,m as default};

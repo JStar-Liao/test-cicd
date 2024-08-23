@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"vue插槽相关","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/39-vue插槽相关.md"}'),p={name:"面试经验/39-vue插槽相关.md"},o=l("",8),e=[o];function E(t,r,c,y,i,b){return n(),a("div",null,e)}const F=s(p,[["render",E]]);export{m as __pageData,F as default};

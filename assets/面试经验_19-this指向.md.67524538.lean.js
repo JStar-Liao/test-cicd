@@ -1,1 +1,0 @@
-import{_ as i,o as t,c as s,U as e}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"js中this指向","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/19-this指向.md"}'),o={name:"面试经验/19-this指向.md"},a=e("",5),l=[a];function n(r,_,h,p,c,d){return t(),s("div",null,l)}const f=i(o,[["render",n]]);export{m as __pageData,f as default};

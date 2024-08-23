@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const d=JSON.parse('{"title":"proxy","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/47-vue3proxy.md"}'),p={name:"面试经验/47-vue3proxy.md"},e=l("",7),o=[e];function r(t,c,E,y,i,b){return n(),a("div",null,o)}const u=s(p,[["render",r]]);export{d as __pageData,u as default};

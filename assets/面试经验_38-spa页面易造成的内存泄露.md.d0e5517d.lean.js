@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const b=JSON.parse('{"title":"spa页面易造成的内存泄露","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/38-spa页面易造成的内存泄露.md"}'),p={name:"面试经验/38-spa页面易造成的内存泄露.md"},e=l("",7),o=[e];function r(t,c,E,i,y,u){return n(),a("div",null,o)}const d=s(p,[["render",r]]);export{b as __pageData,d as default};

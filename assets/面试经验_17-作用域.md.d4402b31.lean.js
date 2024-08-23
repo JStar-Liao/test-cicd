@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,U as l}from"./chunks/framework.1d5623bb.js";const _=JSON.parse('{"title":"作用域","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/17-作用域.md"}'),e={name:"面试经验/17-作用域.md"},p=l("",7),o=[p];function r(c,t,i,E,y,b){return a(),n("div",null,o)}const u=s(e,[["render",r]]);export{_ as __pageData,u as default};

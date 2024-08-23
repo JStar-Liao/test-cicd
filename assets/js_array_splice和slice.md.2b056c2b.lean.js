@@ -1,1 +1,0 @@
-import{_ as e,o as l,c as a,U as i}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"splice 和 slice","description":"","frontmatter":{},"headers":[],"relativePath":"js/array/splice和slice.md"}'),s={name:"js/array/splice和slice.md"},c=i("",9),t=[c];function r(o,n,p,d,_,h){return l(),a("div",null,t)}const f=e(s,[["render",r]]);export{m as __pageData,f as default};

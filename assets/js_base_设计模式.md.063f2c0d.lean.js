@@ -1,0 +1,1 @@
+import{_ as a,o as l,c as e,U as i}from"./chunks/framework.1bc6aac7.js";const q=JSON.parse('{"title":"js 设计模式","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/设计模式.md"}'),r={name:"js/base/设计模式.md"},o=i("",79),t=[o];function h(n,d,s,c,u,p){return l(),e("div",null,t)}const _=a(r,[["render",h]]);export{q as __pageData,_ as default};

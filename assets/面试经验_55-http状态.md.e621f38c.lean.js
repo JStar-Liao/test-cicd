@@ -1,1 +1,0 @@
-import{_ as p,o as a,c as t,U as e}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"http常用的状态码","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/55-http状态.md"}'),r={name:"面试经验/55-http状态.md"},o=e("",39),h=[o];function _(n,i,s,l,c,d){return a(),t("div",null,h)}const q=p(r,[["render",_]]);export{m as __pageData,q as default};

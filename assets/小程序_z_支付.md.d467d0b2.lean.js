@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"小程序/z_支付.md"}'),r={name:"小程序/z_支付.md"};function o(s,_,c,n,p,d){return t(),a("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

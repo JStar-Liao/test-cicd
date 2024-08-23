@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const u=JSON.parse('{"title":"斐波那契数","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/30-斐波那契数.md"}'),p={name:"面试经验/30-斐波那契数.md"},o=l("",2),e=[o];function r(c,E,t,y,i,F){return n(),a("div",null,e)}const m=s(p,[["render",r]]);export{u as __pageData,m as default};

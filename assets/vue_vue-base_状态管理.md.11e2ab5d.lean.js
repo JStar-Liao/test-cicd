@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,U as i}from"./chunks/framework.1d5623bb.js";const v=JSON.parse('{"title":"vue 状态管理","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue-base/状态管理.md"}'),o={name:"vue/vue-base/状态管理.md"},l=i("",8),r=[l];function n(s,u,c,d,h,_){return t(),a("div",null,r)}const m=e(o,[["render",n]]);export{v as __pageData,m as default};

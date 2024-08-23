@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,U as l}from"./chunks/framework.1bc6aac7.js";const h=JSON.parse('{"title":"v-model 原理","description":"","frontmatter":{},"headers":[],"relativePath":"vue/vue-base/v-model原理.md"}'),o={name:"vue/vue-base/v-model原理.md"},i=l("",6),n=[i];function d(r,u,c,s,v,_){return a(),t("div",null,n)}const m=e(o,[["render",d]]);export{h as __pageData,m as default};

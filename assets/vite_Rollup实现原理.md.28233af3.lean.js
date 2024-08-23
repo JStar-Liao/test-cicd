@@ -1,0 +1,1 @@
+import{_ as l,o as e,c as a,U as i}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"Rollup 实现原理","description":"","frontmatter":{},"headers":[],"relativePath":"vite/Rollup实现原理.md"}'),o={name:"vite/Rollup实现原理.md"},r=i("",27),t=[r];function n(u,s,d,h,p,c){return e(),a("div",null,t)}const b=l(o,[["render",n]]);export{m as __pageData,b as default};

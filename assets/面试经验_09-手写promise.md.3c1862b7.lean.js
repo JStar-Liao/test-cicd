@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1bc6aac7.js";const m=JSON.parse('{"title":"手写promise","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/09-手写promise.md"}'),p={name:"面试经验/09-手写promise.md"},e=l("",2),o=[e];function r(E,c,t,y,i,F){return n(),a("div",null,o)}const u=s(p,[["render",r]]);export{m as __pageData,u as default};

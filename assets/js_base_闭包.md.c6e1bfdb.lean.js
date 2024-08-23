@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,U as o}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"闭包","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/闭包.md"}'),r={name:"js/base/闭包.md"},l=o("",7),i=[l];function s(n,_,c,h,d,u){return e(),t("div",null,i)}const f=a(r,[["render",s]]);export{m as __pageData,f as default};

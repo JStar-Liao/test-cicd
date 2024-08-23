@@ -1,1 +1,0 @@
-import{_ as l,o as i,c as e,U as a}from"./chunks/framework.1d5623bb.js";const k=JSON.parse('{"title":"vite","description":"","frontmatter":{},"headers":[],"relativePath":"vite/vite实现原理.md"}'),o={name:"vite/vite实现原理.md"},t=a("",44),r=[t];function d(n,h,u,s,c,p){return i(),e("div",null,r)}const m=l(o,[["render",d]]);export{k as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as i,o as l,c as e,U as t}from"./chunks/framework.1d5623bb.js";const u=JSON.parse('{"title":"页面优化","description":"","frontmatter":{},"headers":[],"relativePath":"面试经验/26-页面优化.md"}'),a={name:"面试经验/26-页面优化.md"},o=t("",7),r=[o];function n(d,s,c,h,f,_){return l(),e("div",null,r)}const p=i(a,[["render",n]]);export{u as __pageData,p as default};

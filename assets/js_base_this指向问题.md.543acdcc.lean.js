@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,U as l}from"./chunks/framework.1d5623bb.js";const m=JSON.parse('{"title":"this 指向问题","description":"","frontmatter":{},"headers":[],"relativePath":"js/base/this指向问题.md"}'),p={name:"js/base/this指向问题.md"},o=l("",31),e=[o];function r(c,E,t,i,y,b){return n(),a("div",null,e)}const F=s(p,[["render",r]]);export{m as __pageData,F as default};
