@@ -12,9 +12,8 @@ on:
       - closed
 
 jobs:
-  if: |
-    github.event.pull_request.merged == true && (github.base_ref == 'dev' || github.base_ref == 'test' || github.base_ref == 'master')
   build-and-deploy:
+    if: github.event.pull_request.merged == true && (github.base_ref == 'dev' || github.base_ref == 'test' || github.base_ref == 'master')
     runs-on: ubuntu-latest
     strategy:
       matrix:
