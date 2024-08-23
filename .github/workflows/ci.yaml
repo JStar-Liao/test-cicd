@@ -71,6 +71,6 @@ jobs:
             docker login --username=${{ secrets.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_TOKEN }}
             docker stop cicd_v1
             docker rm cicd_v1
-            docker rmi cicd:v1
-            docker pull cicd:v1
-            docker run --rm -d -p 8080:80 --name cicd_v1 cicd:v1
+            docker rmi jstar1997/cicd:v1
+            docker pull jstar1997/cicd:v1
+            docker run --rm -d -p 8080:80 --name cicd_v1 jstar1997/cicd:v1
