@@ -1,11 +1,22 @@
 name: CICD
 
+# master推送成功
+# on:
+#   push:
+#     branches:
+#       - master
+# 分支合并成功
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
+      - dev
+      - test
       - master
 
 jobs:
+  if: github.event.pull_request.merged == true && (github.base_ref == 'dev' || github.base_ref == 'test' || github.base_ref == 'master')
   build-and-deploy:
     runs-on: ubuntu-latest
     strategy:
@@ -35,42 +46,43 @@ jobs:
       - name: Package Docs
         run: pnpm docs:build
 
-      # - name: Deploy To Github Pages
-      #   uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy To Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          TOKEN: ${{ secrets.DEPLOY_SECRET }}
+          FOLDER: packages/docs/dist
+          CLEAN: true
+          
+      # - name: Set up Docker Buildx
+      #   uses: docker/setup-buildx-action@v1
+
+      # - name: Login to Docker Hub
+      #   uses: docker/login-action@v3
       #   with:
-      #     TOKEN: ${{ secrets.DEPLOY_SECRET }}
-      #     FOLDER: packages/docs/dist
-      #     CLEAN: true
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_TOKEN }}
+      #     username: ${{ secrets.DOCKER_USERNAME }}
+      #     password: ${{ secrets.DOCKER_TOKEN }}
       
-      - name: Build and push
-        uses: docker/build-push-action@v2
-        with:
-          context: ./packages/docs
-          file: ./packages/docs/dockerfile
-          push: true
-          tags: jstar1997/cicd:v1
+      # - name: Build and push
+      #   uses: docker/build-push-action@v2
+      #   with:
+      #     context: ./packages/docs
+      #     file: ./packages/docs/dockerfile
+      #     push: true
+      #     tags: jstar1997/cicd:v1
 
-      - name: SSH docker login
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          # 需先在/home/cicd/有shell脚本
-          # script: cd /home/cicd/ && sh build.sh ${{ secrets.DOCKER_USERNAME }} ${{ secrets.DOCKER_TOKEN }}
-          script: |
-            #!/bin/sh
-            docker login --username=${{ secrets.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_TOKEN }}
-            docker stop cicd_v1
-            docker rm cicd_v1
-            docker rmi jstar1997/cicd:v1
-            docker pull jstar1997/cicd:v1
-            docker run --rm -d -p 8080:80 --name cicd_v1 jstar1997/cicd:v1
+      # - name: SSH docker login
+      #   uses: appleboy/ssh-action@master
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }}
+      #     username: ${{ secrets.SSH_USERNAME }}
+      #     password: ${{ secrets.SSH_PASSWORD }}
+      #     # 需先在/home/cicd/有shell脚本
+      #     # script: cd /home/cicd/ && sh build.sh ${{ secrets.DOCKER_USERNAME }} ${{ secrets.DOCKER_TOKEN }}
+      #     script: |
+      #       #!/bin/sh
+      #       docker login --username=${{ secrets.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_TOKEN }}
+      #       docker stop cicd_v1
+      #       docker rm cicd_v1
+      #       docker rmi jstar1997/cicd:v1
+      #       docker pull jstar1997/cicd:v1
+      #       docker run --rm -d -p 8080:80 --name cicd_v1 jstar1997/cicd:v1
